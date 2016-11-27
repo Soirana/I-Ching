@@ -1,0 +1,117 @@
+body{background: url("glass-ball.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+	}
+
+#title{
+	text-align: center;
+	font-size: 7vmin;
+	margin-bottom: 0;
+}	
+#aftertitle{
+	margin-top: 0;
+	text-align: center;
+	font-size: 4vmin;
+}
+.flip{
+	position: relative;
+	width: 7.5vw;
+	height: 7.5vw;
+	float: left;
+	perspective: 500vmin;
+}
+.coins{
+	height: 7.5vw;
+	width: 7.5vw;
+	position: absolute;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transition: transform 1s;
+}
+.coinrow{
+	clear: both;
+}
+#roller{
+	font-size: 2vw;
+	margin-left: 1vw;
+}
+#reset, #language, #questInput{
+	font-size: 2vw;
+}
+#question{
+	margin-bottom: 0;
+	font-size: 2vw;
+}
+#questInput{
+	width:43vw;
+
+}
+#inputDiv{
+	margin-bottom: 2vh;
+}
+#language{
+	float: right;
+}
+.back {
+  transform: rotateY(180deg);
+}
+
+.flipped .back {
+  transform: rotateY(0deg);
+}
+
+.flipped .front {
+  transform: rotateY(180deg);
+}
+#reset{
+	position: absolute;
+	top: 10vh;
+	right: 2vw;
+}
+.black{
+	background-color: black;
+}
+.red{
+	background-color: red;
+}
+.transparent{
+	background-color: transparent;
+}
+#coinblock{
+	width: 50vw;
+	float: left;
+}
+#lineBlock{
+	width: 40vw;
+	float: right;
+	margin-top: 1vw
+}
+.lineFrag{
+	width: 10vw;
+	height: 4.5vw;
+	float: right;
+	margin-right: 2vw;
+	margin-bottom: 3vw;
+}
+.lineRow{
+	clear: both;
+}
+#meaning{
+	clear: both;
+	white-space: pre-wrap;
+	padding: 2vmin 2vmin 2vmin 5vmin;
+	font-size: 3vmin;
+	display: table-cell;
+	vertical-align: top;
+	
+
+}
+
+#blueAnswer{
+	width: 100%;
+	background-color: rgba(160,190,220,0.6);
+	display: table; 
+	margin: 0 auto;
+}
