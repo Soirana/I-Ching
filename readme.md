@@ -8,6 +8,6 @@ React, Babel
 
 
 ### Live version
-[http://soirana.github.io/I-ching/]
+[http://soirana.github.io/I-Ching/]
 
 
